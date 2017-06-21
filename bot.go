@@ -8,7 +8,6 @@ import (
 )
 
 func main() {
-	// const TelegramToken string = "306922160:AAEGpiAI9lXD9IBcRWG7Ze9QQL4Kx5IC4Hw"
 	TelegramToken := os.Getenv("TELEGRAM_TOKEN")
 
 	if TelegramToken == "" {
